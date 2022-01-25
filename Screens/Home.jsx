@@ -7,9 +7,11 @@ import { NavigationContainer } from '@react-navigation/native';
 export default function Home() {
     return(
       
-          <view>
-              
-          </view>
+          <View style={{flex:1, justifyContent:'center', textAlign:'center'}}>
+              <Text>
+                    Sneaker Shop
+              </Text>
+          </View>
     )
 
     };
