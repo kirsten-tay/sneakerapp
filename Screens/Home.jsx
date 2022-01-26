@@ -10,8 +10,9 @@ export default function Home() {
                     width:700, 
                     height:610, 
                     borderRadius:20, 
-                    backgroundColor:'transparent',
-                     opacity: 2.0,
+                    backgroundColor: "#000000c0",
+                    lineHeight: 84,
+                    opacity: 2.0,
                     transform:[{rotateY:"45deg"}],
                     
                   }}>
@@ -20,7 +21,8 @@ export default function Home() {
                         style={{
                               width:350,
                               height:200,
-                              
+                              backgroundColor: "#000000c0",
+
                                justifyContent:'center',
                         }}
                    />
@@ -33,16 +35,15 @@ export default function Home() {
             }}
             activeOpacity={0,8}
             style={{
-                backgroundColor:"#e3e3e3",
+                backgroundColor:"white",
                 padding:10,
                 paddingHorizontal:60,
                 flexDirection:"row",
                 alignItems:"center",
-                borderRadius:10,
+                borderRadius:30,
                 marginTop:20,
                  }}>
-                     <AntDesign name="google" size={24} color="rgb(256,100,10)"></AntDesign>
-                   <Text style={{fontSize:17, marginLeft:15}}>Login with Gmail</Text>
+                   <Text style={{fontSize:25, color:'red',marginLeft:15}}>Get Started</Text>
                  </TouchableOpacity>
               </View>
               
