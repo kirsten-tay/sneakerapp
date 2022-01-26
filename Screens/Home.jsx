@@ -11,7 +11,7 @@ export default function Home() {
                     height:610, 
                     borderRadius:20, 
                     backgroundColor: "#000000c0",
-                    lineHeight: 84,
+                  
                     opacity: 2.0,
                     transform:[{rotateY:"45deg"}],
                     
@@ -22,7 +22,6 @@ export default function Home() {
                               width:350,
                               height:200,
                               backgroundColor: "#000000c0",
-
                                justifyContent:'center',
                         }}
                    />
