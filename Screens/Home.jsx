@@ -1,7 +1,5 @@
 import React from 'react'
-import {View,Text, Image, StyleSheet , ScrollView} from "react-native"
-import {Ionicons ,FontAwesome ,AntDesign,Foundation,FlatList} from '@expo/vector-icons';
-import { NavigationContainer } from '@react-navigation/native';
+import {View,Text, Image, } from "react-native"
 
 
 export default function Home() {
