@@ -1,14 +1,52 @@
 import React from 'react'
-import {View,Text, Image, } from "react-native"
+import {View,Text, ImageBackground,Image, TouchableOpacity } from "react-native"
 
 
 export default function Home() {
     return(
       
-          <View style={{flex:1, justifyContent:'center', textAlign:'center'}}>
-              <Text>
-                    Sneaker Shop
-              </Text>
+          <View >
+                <ImageBackground source={require("../assets/homephoto.jpg")}   style={{
+                    width:700, 
+                    height:610, 
+                    borderRadius:20, 
+                    backgroundColor:'transparent',
+                     opacity: 2.0,
+                    transform:[{rotateY:"45deg"}],
+                    
+                  }}>
+                 <View style={{flex:4,justifyContent:"center", alignItems:"center", backgroundcolor: "white"}}>
+                 <Image source={require("../assets/nikelogo.jpg")}
+                        style={{
+                              width:350,
+                              height:200,
+                              
+                               justifyContent:'center',
+                        }}
+                   />
+                  
+              </View>
+              <View style={{flex:2, justifyContent:"center",  alignItems:"center",   backgroundcolor: "white"}}>
+              <TouchableOpacity 
+            onPress={() => {
+                navigation.navigate("Cart")
+            }}
+            activeOpacity={0,8}
+            style={{
+                backgroundColor:"#e3e3e3",
+                padding:10,
+                paddingHorizontal:60,
+                flexDirection:"row",
+                alignItems:"center",
+                borderRadius:10,
+                marginTop:20,
+                 }}>
+                     <AntDesign name="google" size={24} color="rgb(256,100,10)"></AntDesign>
+                   <Text style={{fontSize:17, marginLeft:15}}>Login with Gmail</Text>
+                 </TouchableOpacity>
+              </View>
+              
+              </ImageBackground>
           </View>
     )
 
