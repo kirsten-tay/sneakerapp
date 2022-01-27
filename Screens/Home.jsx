@@ -11,13 +11,13 @@ export default function Home() {
                     width:700, 
                     height:610, 
                     borderRadius:20, 
-                    backgroundColor: "#000000c0",
                   
-                    opacity: 2.0,
+                    opacity: 1.0,
                     transform:[{rotateY:"45deg"}],
                     
                   }}>
                  <View style={{flex:5,justifyContent:"center", alignItems:"center", backgroundcolor: "white"}}>
+                 <Text style={{color:'white', fontSize:60, }}>NIKE</Text>
                  <Logosvg/>
                   
               </View>
