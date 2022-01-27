@@ -1,5 +1,6 @@
 import React from 'react'
 import {View,Text, ImageBackground,Image, TouchableOpacity } from "react-native"
+import Logosvg from '../components/Logosvg.jsx'
 
 
 export default function Home() {
@@ -16,18 +17,11 @@ export default function Home() {
                     transform:[{rotateY:"45deg"}],
                     
                   }}>
-                 <View style={{flex:4,justifyContent:"center", alignItems:"center", backgroundcolor: "white"}}>
-                 <Image source={require("../assets/nikelogo.jpg")}
-                        style={{
-                              width:350,
-                              height:200,
-                              backgroundColor: "#000000c0",
-                               justifyContent:'center',
-                        }}
-                   />
+                 <View style={{flex:5,justifyContent:"center", alignItems:"center", backgroundcolor: "white"}}>
+                 <Logosvg/>
                   
               </View>
-              <View style={{flex:2, justifyContent:"center",  alignItems:"center",   backgroundcolor: "white"}}>
+              <View style={{flex:1, justifyContent:"center",  alignItems:"center",   backgroundcolor: "white"}}>
               <TouchableOpacity 
             onPress={() => {
                 navigation.navigate("Cart")
