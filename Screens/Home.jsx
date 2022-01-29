@@ -1,6 +1,8 @@
 import React from 'react'
 import {View,Text, ImageBackground,Image, TouchableOpacity } from "react-native"
 import Logosvg from '../components/Logosvg.jsx'
+import { NavigationContainer } from '@react-navigation/native';
+
 
 
 export default function Home() {
