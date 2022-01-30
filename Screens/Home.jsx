@@ -5,7 +5,7 @@ import { NavigationContainer } from '@react-navigation/native';
 
 
 
-export default function Home() {
+export default function Home({navigation}) {
     return(
       
           <View >
