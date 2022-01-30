@@ -26,7 +26,7 @@ export default function Home() {
               <View style={{flex:1, justifyContent:"center",  alignItems:"center",   backgroundcolor: "white"}}>
               <TouchableOpacity 
             onPress={() => {
-                navigation.navigate("Cart")
+                navigation.navigate("Login")
             }}
             activeOpacity={0,8}
             style={{
