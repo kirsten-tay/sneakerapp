@@ -21,6 +21,7 @@ export default function Home({navigation}) {
                  <View style={{flex:5,justifyContent:"center", alignItems:"center", backgroundcolor: "white"}}>
                  <Text style={{color:'white', fontSize:60, }}>NIKE</Text>
                  <Logosvg/>
+                 <Image source={require("../assets/nikelogo.jpg")} style={{backgroundColor: 'transparent'}}/>
                   
               </View>
               <View style={{flex:1, justifyContent:"center",  alignItems:"center",   backgroundcolor: "white"}}>
