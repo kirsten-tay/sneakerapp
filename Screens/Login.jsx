@@ -11,7 +11,17 @@ export default function Login({navigation}) {
             alignItems:"center", 
             backgroundcolor: "white"
             }}>
-            
+            <ImageBackground source={require("../assets/homephoto.jpg")}   style={{
+                    width:700, 
+                    height:610, 
+                    borderRadius:20, 
+                  
+                    opacity: 1.0,
+                    transform:[{rotateY:"45deg"}],
+                    
+                  }}>
+                      
+                  </ImageBackground>
 
             </View>
     )
