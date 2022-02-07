@@ -1,5 +1,5 @@
 import React from "react";
-import {View, Text, Image} from 'react-native';
+import {View, Text, ImageBackground} from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 
 
@@ -16,11 +16,11 @@ export default function Login({navigation}) {
                     height:610, 
                     borderRadius:20, 
                   
-                    opacity: 1.0,
+                    opacity: 0.70,
                     transform:[{rotateY:"45deg"}],
                     
                   }}>
-                      
+
                   </ImageBackground>
 
             </View>

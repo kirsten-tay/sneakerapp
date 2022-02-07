@@ -8,12 +8,12 @@ import { NavigationContainer } from '@react-navigation/native';
 export default function Home({navigation}) {
     return(
       
-          <View >
+          <View style={{justifyContent:"center",
+                     alignItems:"center",}}>
                 <ImageBackground source={require("../assets/homephoto.jpg")}   style={{
                     width:700, 
                     height:610, 
-                    borderRadius:20, 
-                  
+                    
                     opacity: 1.0,
                     transform:[{rotateY:"45deg"}],
                     
