@@ -12,7 +12,7 @@ export default function Home({navigation}) {
                      alignItems:"center",}}>
                 <ImageBackground source={require("../assets/homephoto.jpg")}   style={{
                     width:700, 
-                    height:610, 
+                    height:610,
                     
                     opacity: 1.0,
                     transform:[{rotateY:"45deg"}],
