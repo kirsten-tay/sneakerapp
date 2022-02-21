@@ -17,11 +17,10 @@ export default function Home({navigation}) {
                     transform:[{rotateY:"45deg"}],
                     
                   }}>
-                 <View style={{flex:5,justifyContent:"center", alignItems:"center", backgroundcolor: "white"}}>
-                 <Image source={require("../assets/nikelogo.jpg")} style={{backgroundColor: 'transparent'}}/>
+                 <View style={{flex:2,justifyContent:"center", alignItems:"center", backgroundcolor: "white"}}>
                   
               </View>
-              <View style={{flex:1, justifyContent:"center",  alignItems:"center",   backgroundcolor: "white"}}>
+              <View style={{flex:2, justifyContent:"center",  alignItems:"center",   backgroundcolor: "white"}}>
               <TouchableOpacity 
             onPress={() => {
                 navigation.navigate("Login")
