@@ -16,31 +16,31 @@ export default function Login({navigation}) {
                     width:700, 
                     height:610, 
                     borderRadius:20, 
-                  
                     opacity: 0.70,
                     transform:[{rotateY:"45deg"}], 
                   }}>
-                      <View style={{flex:2}}/>
-                      <View style={{flex:2}}>
-
-                   <TouchableOpacity 
-            onPress={() => {
-                navigation.navigate("Cart")
-            }}
-            activeOpacity={0,8}
-            style={{
-                backgroundColor:"#e3e3e3",
-                padding:10,
-                paddingHorizontal:60,
-                flexDirection:"row",
-                alignItems:"center",
-                borderRadius:10,
-                marginTop:20,
-                 }}>
-                     <AntDesign name="google" size={24} color="rgb(256,100,10)"></AntDesign>
-                   <Text style={{fontSize:17, marginLeft:15}}>Login with Gmail</Text>
-                 </TouchableOpacity>
-                 </View>
+                      <View style={{flex:2,justifyContent:"center", alignItems:"center", backgroundcolor: "white"}}>
+                  
+                  </View>
+                  <View style={{flex:2, justifyContent:"center",  alignItems:"center",   backgroundcolor: "white"}}>
+                  <TouchableOpacity 
+                onPress={() => {
+                    navigation.navigate("Login")
+                }}
+                activeOpacity={0,8}
+                style={{
+                    backgroundColor:"white",
+                    padding:10,
+                    paddingHorizontal:60,
+                    flexDirection:"row",
+                    alignItems:"center",
+                    borderRadius:30,
+                    marginTop:20,
+                     }}>
+                           <AntDesign name="google" size={24} color="rgb(256,100,10)"></AntDesign>
+                   <Text style={{fontSize:17,fontWeight:"bold", color:'red', marginLeft:15}}>Login with Gmail</Text>
+                     </TouchableOpacity>
+                  </View>
                   </ImageBackground>
 
             </View>
