@@ -35,7 +35,7 @@ export default function Home({navigation}) {
                 borderRadius:30,
                 marginTop:20,
                  }}>
-                   <Text style={{fontSize:25, color:'red',marginLeft:15}}>Get Started</Text>
+                   <Text style={{fontSize:25,fontWeight:"bold", color:'red',marginLeft:15}}>Get Started</Text>
                  </TouchableOpacity>
               </View>
               
