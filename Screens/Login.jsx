@@ -16,7 +16,7 @@ export default function Login({navigation}) {
                     width:700, 
                     height:610, 
                     borderRadius:20, 
-                    opacity: 0.70,
+                    opacity: 1.0,
                     transform:[{rotateY:"45deg"}], 
                   }}>
                       <View style={{flex:2,justifyContent:"center", alignItems:"center", backgroundcolor: "white"}}>
